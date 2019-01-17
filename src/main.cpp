@@ -1,7 +1,9 @@
 #include <iostream>
 
+#define HomeMessage "Bonjour le monde !"
+
 int main()
 {
-	std::cout << "Bonjour le monde !" << std::endl;
+	std::cout << HomeMessage << std::endl;
 	return 0;
 }
